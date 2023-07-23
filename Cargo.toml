@@ -1,0 +1,13 @@
+[package]
+name = "bitcask-core"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+anyhow = "1.0.70"
+crc = "3.0.1"
+memmap = "0.7.0"
+radix_trie = "0.2.1"
+rand = "0.8.5"
